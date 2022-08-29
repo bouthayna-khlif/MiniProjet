@@ -1,0 +1,42 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg");
+    background-size: cover;
+    color: ivory;
+}
+
+.container {
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg");
+    color: black;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+nav {
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_960_720.jpg");
+}
+
+a {
+    color: black;
+}

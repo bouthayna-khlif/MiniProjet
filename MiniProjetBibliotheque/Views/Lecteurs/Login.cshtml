@@ -1,0 +1,40 @@
+﻿@model MiniProjetBibliotheque.Models.Lecteur
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1 class="display-4">Connexion</h1>
+
+<h4>Lecteur</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="EmailLecteur" class="control-label"></label>
+                <input asp-for="EmailLecteur" class="form-control" />
+                <span asp-validation-for="EmailLecteur" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Mdp_Lecteur" class="control-label"></label>
+                <input asp-for="Mdp_Lecteur" class="form-control" />
+                <span asp-validation-for="Mdp_Lecteur" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <input type="submit" value="Se connecter" class="btn btn-dark" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Home" asp-action="Index">Retour à l'accueil</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

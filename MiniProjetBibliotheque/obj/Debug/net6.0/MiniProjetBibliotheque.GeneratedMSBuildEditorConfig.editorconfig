@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiniProjetBibliotheque
+build_property.RootNamespace = MiniProjetBibliotheque
+build_property.ProjectDir = C:\Users\Jordan\source\repos\MiniProjetBibliotheque\MiniProjetBibliotheque\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Jordan\source\repos\MiniProjetBibliotheque\MiniProjetBibliotheque
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Auteurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZXVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Auteurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZXVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Auteurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZXVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Auteurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZXVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Auteurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZXVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Domaines/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Domaines/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Domaines/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Domaines/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Domaines/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9tYWluZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Emprunts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcnVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Emprunts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcnVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Emprunts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcnVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Emprunts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcnVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Emprunts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcnVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Lecteurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdGV1cnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Lecteurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdGV1cnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Lecteurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdGV1cnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Lecteurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdGV1cnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Lecteurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdGV1cnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Lecteurs/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVjdGV1cnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Livres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Livres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Livres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Livres/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Livres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jordan/source/repos/MiniProjetBibliotheque/MiniProjetBibliotheque/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-97nrsng2kv
