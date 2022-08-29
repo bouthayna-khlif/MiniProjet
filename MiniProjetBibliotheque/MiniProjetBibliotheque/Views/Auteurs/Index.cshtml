@@ -1,0 +1,79 @@
+﻿@model IEnumerable<MiniProjetBibliotheque.Models.Auteur>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Liste des auteurs</h1>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Rechercher par Nom ou Prenom: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" value="Rechercher" class="btn btn-secondary" /> |
+            <a class="btn btn-outline-secondary" asp-action="Index">Retour a la Liste complète</a>
+        </p>
+    </div>
+</form>
+
+<p>
+    <a class="btn btn-secondary" asp-action="Create">Créer un nouvel auteur</a>
+</p>
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Success !</strong> @TempData["AlertMessage"]
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @*Html.DisplayNameFor(model => model.NomAuteur)*@
+               
+                 <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.NomAuteur)</a>
+            </th>
+            <th>
+                  <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.PrenomAuteur)</a>
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Téléphone
+            </th>
+            <th>
+                Grade
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomAuteur)
+               
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrenomAuteur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAuteur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelephoneAuteur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grade)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AuteurId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AuteurId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AuteurId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

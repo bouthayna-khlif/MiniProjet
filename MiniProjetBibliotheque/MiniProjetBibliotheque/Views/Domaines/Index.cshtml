@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MiniProjetBibliotheque.Models.Domaine>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Liste des domaines</h1>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Rechercher par Nom: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+            <input type="submit" value="Rechercher" class="btn btn-secondary" /> |
+            <a class="btn btn-outline-secondary" asp-action="Index">Retour a la Liste complète</a>
+        </p>
+    </div>
+</form>
+
+<p>
+    <a class="btn btn-secondary" asp-action="Create">Créer un nouveau domaine</a>
+</p>
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Success !</strong> @TempData["AlertMessage"]
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.NomDomaine)</a>
+            </th>
+            <th>
+               <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.Description)</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomDomaine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DomaineId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DomaineId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DomaineId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
